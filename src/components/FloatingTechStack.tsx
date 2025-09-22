@@ -1,4 +1,4 @@
-import { motion } from 'motion/react';
+import { motion, AnimatePresence } from 'framer-motion';
 import { useState } from 'react';
 import { Code, Database, Cloud, Brain, Palette, Terminal } from 'lucide-react';
 import { Card, CardContent } from './ui/card';
