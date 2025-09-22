@@ -1,8 +1,10 @@
 import { useState } from 'react';
+import './styles/globals.css';
 import { motion, AnimatePresence } from 'framer-motion';
-import { Navigation } from './src/components/Navigation';
-import { AboutPage } from './src/components/AboutPage';
-import { PortfolioPage } from './src/components/PortfolioPage';
+import { Navigation } from './components/Navigation';
+import { AboutPage } from './components/AboutPage';
+import { PortfolioPage } from './components/PortfolioPage';
+import { FloatingTechStack } from './components/FloatingTechStack';
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState<'about' | 'portfolio'>('about');
